@@ -18,6 +18,7 @@ public class SettingsActivity extends AppCompatActivity implements SeekBar.OnSee
    private SettingsHelper mSettingsHelper;
    private EditText mFileName;
 
+
    @Override
    protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
