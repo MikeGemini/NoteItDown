@@ -17,12 +17,15 @@ public class SettingsActivity extends AppCompatActivity implements SeekBar.OnSee
    private String mSampleString;
    private SettingsHelper mSettingsHelper;
    private EditText mFileName;
+   private int mDefaultTheme;
 
 
    @Override
    protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
       setContentView(R.layout.activity_settings);
+
+      mDefaultTheme = 2;
 
       mTextSizeSample = findViewById(R.id.tv_text_size_sample);
       mSeekBar = findViewById(R.id.sb_font_size);
