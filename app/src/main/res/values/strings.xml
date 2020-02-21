@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Note It Down</string>
+
+    <string name="action_open_text">Open</string>
+    <string name="action_save_text">Save</string>
+    <string name="action_settings_text">Settings</string>
+    <string name="action_back">Back</string>
+
+    <string name="file_name_text">File name:</string>
+    <string name="default_file_name">current.txt</string>
+
+    <string name="text_size_sample">Text size sample</string>
+</resources>
